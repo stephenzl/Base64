@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.author   = { 'google' => 'Google Inc' }
   s.source   = { :git => 'https://github.com/stephenzl/Base64.git' }
   s.source_files = 'Classes/*.{h,m}'
+  s.requires_arc = false
 
   s.license  = {:type => 'Apache License'}
 end
