@@ -16,8 +16,8 @@
 //  the License.
 //
 
-#import "Base64.h"
-#import "Base64Defines.h"
+#import "GTBase64.h"
+#import "GTBase64Defines.h"
 
 static const char *kBase64EncodeChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 static const char *kWebSafeBase64EncodeChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
@@ -242,7 +242,7 @@ GTM_INLINE NSUInteger GuessDecodedLength(NSUInteger srcLen) {
 @end
 
 
-@implementation Base64
+@implementation GTBase64
 
 //
 // Standard Base64 (RFC) handling
@@ -397,7 +397,7 @@ GTM_INLINE NSUInteger GuessDecodedLength(NSUInteger srcLen) {
 
 @end
 
-@implementation Base64 (PrivateMethods)
+@implementation GTBase64 (PrivateMethods)
 
 //
 // baseEncode:length:charset:padded:
