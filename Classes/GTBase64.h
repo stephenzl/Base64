@@ -1,5 +1,5 @@
 //
-//  Base64.h
+//  GTBase64.h
 //
 //  Copyright 2006-2008 Google Inc.
 //

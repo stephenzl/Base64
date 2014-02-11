@@ -1,5 +1,5 @@
 //
-// Base64Defines.h
+// 	GTBase64Base64Defines.h
 //
 //  Copyright 2008 Google Inc.
 //
