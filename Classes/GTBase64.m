@@ -213,7 +213,7 @@ GTM_INLINE NSUInteger GuessDecodedLength(NSUInteger srcLen) {
 }
 
 
-@interface Base64 (PrivateMethods)
+@interface GTBase64 (PrivateMethods)
 
 +(NSData *)baseEncode:(const void *)bytes
                length:(NSUInteger)length
